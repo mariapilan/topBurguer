@@ -19,6 +19,9 @@ class ProdutoController extends Controller
                 'imagem' => asset('storage/' . $produto->imagem)
             ];
         });
+
+
+
         return response()->json($produtosComImagem);
     }
 
